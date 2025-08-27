@@ -101,7 +101,7 @@ const Layout = ({ children }) => {
                                 edge="start"
                                 color="inherit"
                                 aria-label="menu"
-                                sx={{ display: { xs: 'flex' } }}
+                                sx={{ display: { xs: 'flex',md:"none" } }}
                                 onClick={toggleDrawer(true)}
                             >
                                 <MenuIcon />
