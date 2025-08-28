@@ -1,4 +1,10 @@
 import { createTheme } from "@mui/material/styles";
+import { Inter } from 'next/font/google';
+
+const jost = Inter({
+  subsets: ['latin'],
+  // weight: ['400', '500', '600', '700'],
+});
 const primary = "#DC3173";
 const secondary = "#FBB03B";
 const background = "#ffffff";
@@ -96,7 +102,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: "'Gellix', sans-serif",
+     fontFamily: jost.style.fontFamily,
   },
 });
 
